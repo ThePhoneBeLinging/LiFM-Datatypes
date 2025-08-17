@@ -42,7 +42,7 @@ std::shared_ptr<LeagueTable> League::generateLeagueTable() const
     else
     {
       leagueTable->tableClubs[awayClubIndex].wins++;
-      leagueTable->tableClubs[awayClubIndex].losses++;
+      leagueTable->tableClubs[homeClubIndex].losses++;
       leagueTable->tableClubs[awayClubIndex].points += 3;
     }
   }

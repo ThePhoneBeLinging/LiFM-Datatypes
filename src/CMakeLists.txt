@@ -9,7 +9,6 @@ add_library(LiFM_Datatypes
         Match.cpp
         Dataholder.hpp
         LeagueTable.cpp
-        LeagueTable.hpp
 )
 
 target_link_libraries(LiFM_Datatypes PUBLIC Utility LiFM_Timeline)
